@@ -1,3 +1,4 @@
+#CC=/usr/local/arm/4.2.2-eabi/usr/bin/arm-linux-gcc
 CC=gcc
 test: prog.o code.o main.o
 	$(CC) -o test prog.o code.o main.o
